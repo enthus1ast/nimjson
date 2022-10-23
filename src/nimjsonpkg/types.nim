@@ -75,6 +75,7 @@ func backquote(s: string, force: bool): string =
     "let",
     "const",
     "var",
+    "discard",
   ]
   result = &"`{s}`"
   if force:
